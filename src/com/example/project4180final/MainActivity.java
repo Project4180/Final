@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
         
         findViewById(R.id.buttonExit).setOnClickListener(new View.OnClickListener() {
 			
+        	
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -28,6 +29,16 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+				startActivity(intent);
+			}
+		});
+        
+        findViewById(R.id.buttonSignIn).setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, LoginActivity.class);
 				startActivity(intent);
 			}
 		});

@@ -3,7 +3,7 @@
 
     <string name="app_name">Project4180Final</string>
     <string name="action_settings">Settings</string>
-    <string name="buttonLogin">Login</string>
+    <string name="buttonSignIn">Sign In</string>
     <string name="buttonRegister">Register</string>
     <string name="buttonExit">Exit</string>
     <string name="title_activity_register">RegisterActivity</string>
@@ -19,6 +19,14 @@
     <string name="editTextPassword"></string>
     <string name="buttonAccept">Accept</string>
     <string name="buttonCancel">Cancel</string>
-  
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="textViewLUser">User Name</string>
+    <string name="editTextLUser"></string>
+    <string name="textViewLPassword">Password</string>
+    <string name="editTextLPassword"></string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonLCancel">Cancel</string>
    
+    
+
 </resources>

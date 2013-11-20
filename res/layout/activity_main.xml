@@ -10,20 +10,20 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/buttonSignIn"
         android:layout_width="95dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/buttonLogin" />
+        android:text="@string/buttonSignIn" />
 
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="95dp"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/buttonLogin"
-        android:layout_alignBottom="@+id/buttonLogin"
-        android:layout_toRightOf="@+id/buttonLogin"
+        android:layout_alignBaseline="@+id/buttonSignIn"
+        android:layout_alignBottom="@+id/buttonSignIn"
+        android:layout_toRightOf="@+id/buttonSignIn"
         android:text="@string/buttonRegister" />
 
     <Button
