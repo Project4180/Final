@@ -3,12 +3,22 @@
 
     <string name="app_name">Project4180Final</string>
     <string name="action_settings">Settings</string>
-
-    <String name="buttonLogin">Login</String>
-    <String name="buttonRegister">Register</String>
-    <String name="buttonExit">Exit</String>
     <string name="buttonLogin">Login</string>
     <string name="buttonRegister">Register</string>
     <string name="buttonExit">Exit</string>
-
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="textViewName">First Name</string>
+    <string name="editTextName"></string>
+    <string name="textViewLast">Last Name</string>
+    <string name="editTextLast"></string>
+    <string name="textViewEmail">Email</string>
+    <string name="editTextEmail"></string>
+    <string name="textViewUser">Username</string>
+    <string name="editTextUser"></string>
+    <string name="textViewPassword">Password</string>
+    <string name="editTextPassword"></string>
+    <string name="buttonAccept">Accept</string>
+    <string name="buttonCancel">Cancel</string>
+  
+   
 </resources>

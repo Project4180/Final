@@ -18,20 +18,21 @@
         android:text="@string/buttonLogin" />
 
     <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonLogin"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_toRightOf="@+id/buttonLogin"
+        android:text="@string/buttonRegister" />
+
+    <Button
         android:id="@+id/buttonExit"
         android:layout_width="95dp"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/buttonRegister"
         android:layout_alignBottom="@+id/buttonRegister"
-        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/buttonRegister"
         android:text="@string/buttonExit" />
-
-    <Button
-        android:id="@+id/buttonRegister"
-        android:layout_width="95dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/buttonExit"
-        android:text="@string/buttonRegister" />
 
 </RelativeLayout>
