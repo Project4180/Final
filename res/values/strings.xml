@@ -3,6 +3,12 @@
 
     <string name="app_name">Project4180Final</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+
+    <String name="buttonLogin">Login</String>
+    <String name="buttonRegister">Register</String>
+    <String name="buttonExit">Exit</String>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonRegister">Register</string>
+    <string name="buttonExit">Exit</string>
 
 </resources>
