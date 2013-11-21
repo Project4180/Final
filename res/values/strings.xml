@@ -26,7 +26,10 @@
     <string name="editTextLPassword"></string>
     <string name="buttonLogin">Login</string>
     <string name="buttonLCancel">Cancel</string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="buttonOptionAdd">Add Coupon</string>
+    <string name="buttonOptionSearch">Search Coupons</string>
+    <string name="buttonOptionCancel">Cancel</string>
    
-    
 
 </resources>

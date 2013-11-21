@@ -1,3 +1,4 @@
+
 package com.example.project4180final;
 
 import android.os.Bundle;
@@ -18,6 +19,15 @@ public class LoginActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				finish();
+			}
+		});
+		
+		findViewById(R.id.buttonLogin).setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
 			}
 		});
 	}
