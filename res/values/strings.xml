@@ -7,10 +7,7 @@
     <string name="buttonRegister">Register</string>
     <string name="buttonExit">Exit</string>
     <string name="title_activity_register">RegisterActivity</string>
-    <string name="textViewName">First Name</string>
     <string name="editTextName"></string>
-    <string name="textViewLast">Last Name</string>
-    <string name="editTextLast"></string>
     <string name="textViewEmail">Email</string>
     <string name="editTextEmail"></string>
     <string name="textViewUser">Username</string>
@@ -28,8 +25,9 @@
     <string name="buttonLCancel">Cancel</string>
     <string name="title_activity_option">OptionActivity</string>
     <string name="buttonOptionAdd">Add Coupon</string>
-    <string name="buttonOptionSearch">Search Coupons</string>
     <string name="buttonOptionCancel">Cancel</string>
+    <string name="textViewName">Name</string>
+    <string name="buttonListCoupons">Lists of Coupons</string>
    
 
 </resources>

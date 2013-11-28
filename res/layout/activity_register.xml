@@ -10,31 +10,20 @@
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textViewName"
         android:ems="10"
-        android:hint="First Name"
+        android:hint="@string/editTextName"
         android:text="@string/editTextName" />
-
-    <EditText
-        android:id="@+id/editTextLast"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editTextName"
-        android:layout_below="@+id/textViewLUser"
-        android:ems="10"
-        android:hint="Last Name"
-        android:text="@string/editTextLast" />
 
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editTextLast"
+        android:layout_alignLeft="@+id/editTextName"
         android:layout_below="@+id/textViewEmail"
         android:ems="10"
-        android:hint="Email"
         android:inputType="textEmailAddress"
         android:text="@string/editTextEmail" >
 
@@ -48,7 +37,6 @@
         android:layout_alignLeft="@+id/textViewUser"
         android:layout_below="@+id/textViewUser"
         android:ems="10"
-        android:hint="UserName"
         android:inputType="textPostalAddress"
         android:text="@string/editTextUser" />
 
@@ -59,7 +47,6 @@
         android:layout_alignLeft="@+id/textViewPassword"
         android:layout_below="@+id/textViewPassword"
         android:ems="10"
-        android:hint="Password"
         android:inputType="textPassword"
         android:text="@string/editTextPassword" />
 
@@ -79,25 +66,15 @@
         android:layout_alignLeft="@+id/editTextName"
         android:layout_alignParentTop="true"
         android:text="@string/textViewName"
-        android:textSize="15dp" />
-
-    <TextView
-        android:id="@+id/textViewLUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textViewName"
-        android:layout_below="@+id/editTextName"
-        android:text="@string/textViewLast"
-        android:textSize="14dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textViewEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewLUser"
-        android:layout_below="@+id/editTextLast"
+        android:layout_below="@+id/editTextName"
         android:text="@string/textViewEmail"
-        android:textSize="14dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textViewUser"
@@ -106,7 +83,7 @@
         android:layout_alignLeft="@+id/editTextEmail"
         android:layout_below="@+id/editTextEmail"
         android:text="@string/textViewUser"
-        android:textSize="14dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textViewPassword"
@@ -114,7 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/textViewUser"
         android:layout_below="@+id/editTextUser"
-        android:text="@string/textViewPassword" />
+        android:text="@string/textViewPassword" 
+        android:textSize="15sp"/>
 
     <Button
         android:id="@+id/buttonAccept"

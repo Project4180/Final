@@ -8,24 +8,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".LoginActivity" >
 
-    <TextView
-        android:id="@+id/textViewLUser"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/buttonLCancel"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/textViewLUser"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:layout_alignBaseline="@+id/buttonLogin"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_alignRight="@+id/editTextLPassword"
+        android:text="@string/buttonLCancel" />
 
     <EditText
         android:id="@+id/editTextLUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewLUser"
         android:layout_below="@+id/textViewLUser"
-        android:layout_marginTop="26dp"
         android:ems="10"
         android:hint="User Name"
         android:text="@string/editTextLUser" >
@@ -39,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editTextLUser"
         android:layout_below="@+id/editTextLUser"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="26dp"
         android:text="@string/textViewLPassword"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -48,28 +44,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewLPassword"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/textViewLPassword"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:text="@string/editTextLPassword" />
 
+    <TextView
+        android:id="@+id/textViewLUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextLUser"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/textViewLUser"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="66dp"
+        android:layout_alignLeft="@+id/editTextLPassword"
+        android:layout_below="@+id/editTextLPassword"
+        android:layout_marginTop="96dp"
         android:text="@string/buttonLogin" />
-
-    <Button
-        android:id="@+id/buttonLCancel"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/buttonLogin"
-        android:layout_alignBottom="@+id/buttonLogin"
-        android:layout_alignRight="@+id/editTextLPassword"
-        android:text="@string/buttonLCancel" />
 
 </RelativeLayout>
