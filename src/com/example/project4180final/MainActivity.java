@@ -18,9 +18,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		// ParseAnalytics.trackAppOpened(getIntent());
-
-		Parse.initialize(this, "ZGa1ydEN4w54vRMpWmsZd5ZvmFCEVSZGv3HGRiJJ",
-				"yrgvaK6IeOIg9OIL46UpHIU1snlo9W5pSubg2AwC");
+		Parse.initialize(this, "QsSTLvso7hT5I9oivaaWPWqgBONfdTguZFcBvDyA",
+				"P6DdqZ7OD5zLCaZfUIClgnPvF17NZC6ooQ8jULvZ");
 		findViewById(R.id.buttonExit).setOnClickListener(
 				new View.OnClickListener() {
 

@@ -24,7 +24,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class LoginActivity extends Activity implements OnClickListener{
-	
+
+	final static String USER_KEYL = "USER";
 	EditText eu,ep;
 	Button bt1, bt2;
 	
@@ -59,6 +60,7 @@ public class LoginActivity extends Activity implements OnClickListener{
 				      // Hooray! The user is logged in.
 				    	//Log.d("demo","Verdadero");
 				    	Intent intent = new Intent(LoginActivity.this, OptionActivity.class);
+				    	intent.putExtra(USER_KEYL, eu.getText().toString());
 				    	startActivity(intent);
 				    } else {
 				      // Signup failed. Look at the ParseException to see what happened.

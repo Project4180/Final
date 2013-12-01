@@ -28,6 +28,15 @@
     <string name="buttonOptionCancel">Cancel</string>
     <string name="textViewName">Name</string>
     <string name="buttonListCoupons">Lists of Coupons</string>
-   
+    <string name="title_activity_coupons">CouponsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textViewCompany">Name of The Company</string>
+    <string name="editTextCompany"></string>
+    <string name="textViewExpiration">Expirartion Date</string>
+    <string name="editTextExpiration"></string>
+    <string name="buttonPhoto">Take Picture</string>
+    <string name="buttonCSave">Save</string>
+    <string name="buttonCCancel">Cancel</string>
+    <string name="textViewOUsername"></string>
 
 </resources>
